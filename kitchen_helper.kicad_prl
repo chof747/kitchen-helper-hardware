@@ -3,38 +3,14 @@
     "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_nets": [
-      "unconnected-(D5-Pad2)",
-      "unconnected-(IC1-Pad14)",
-      "unconnected-(IC1-Pad16)",
-      "unconnected-(IC1-Pad22)",
-      "unconnected-(IC1-Pad23)",
-      "unconnected-(IC1-Pad24)",
-      "unconnected-(IC1-Pad25)",
-      "unconnected-(IC1-Pad26)",
-      "unconnected-(IC1-Pad32)",
-      "unconnected-(IC1-Pad33)",
-      "unconnected-(IC1-Pad34)",
-      "unconnected-(IC1-Pad39)",
-      "unconnected-(SW4-PadMH1)",
-      "unconnected-(SW4-PadMH2)",
-      "unconnected-(IC1-Pad15)",
-      "unconnected-(IC1-Pad17)",
-      "unconnected-(IC1-Pad35)",
-      "unconnected-(IC1-Pad38)",
-      "unconnected-(IC1-Pad18)",
-      "unconnected-(IC2-Pad4)",
-      "unconnected-(IC3-Pad4)",
-      "unconnected-(Q4-Pad2)",
-      "unconnected-(Q4-Pad5)"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.36000001430511475
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -83,9 +59,10 @@
       33,
       34,
       35,
-      36
+      36,
+      37
     ],
-    "visible_layers": "002f3fc_80000001",
+    "visible_layers": "000f37c_80000001",
     "zone_display_mode": 0
   },
   "meta": {

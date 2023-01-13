@@ -1,4 +1,9 @@
+\#auto_saved_files#
+_autosave-*.*
 *.*bak
 *-backups
+kitchen_helper_pcb_*.step
 fp-info-cache
-#auto_saved_files#
+production/
+jlcpcb/assembly/
+jlcpcb/gerber

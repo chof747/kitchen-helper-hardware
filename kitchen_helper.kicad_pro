@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -111,7 +111,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.13,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -371,7 +371,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.33,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -388,7 +388,7 @@
       },
       {
         "bus_width": 24.0,
-        "clearance": 0.254,
+        "clearance": 0.3048,
         "diff_pair_gap": 0.33,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -398,8 +398,7 @@
         "name": "Power",
         "nets": [
           "+3V3",
-          "BATT+",
-          "BATT-",
+          "/BATT+",
           "GND",
           "Net-(BZ1-Pad2)"
         ],
@@ -422,8 +421,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "kitchen_helper.step",
-      "vrml": ""
+      "step": "kitchen_helper_pcb_v1.step",
+      "vrml": "kitchen_helper_v1.wrl"
     },
     "page_layout_descr_file": "default.kicad_wks"
   },
@@ -469,6 +468,14 @@
     [
       "90857d74-f4db-4dc2-8da3-38521bc3867e",
       ""
+    ],
+    [
+      "aa13233b-4f10-4535-bcdc-8b8bb914bfc3",
+      "Peripherals"
+    ],
+    [
+      "ff9a2621-f6ba-4ac5-b7ee-2cb961ea55a1",
+      "Power Management"
     ]
   ],
   "text_variables": {}
